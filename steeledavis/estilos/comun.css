@@ -1,3 +1,91 @@
-h1{
-    color:red;
-}   
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #0AEFFF;
+}
+
+header {
+    background-color: #147df5;
+    border: 5px, solid, black;
+
+}
+
+header, ul {
+    list-style: none;
+}
+
+nav a{
+    list-style: none;
+    color:white;
+    font-size: 35px;
+    font-family: 'dosis';
+}
+
+#formulario {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 50px;
+}
+
+aside {
+    background-color: #147df5;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+aside, img {
+    height: 80%;
+    padding: 6px;
+}
+
+aside, h1{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+}
+
+footer, p {
+    background-color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.columna-25 {
+    width: 25%;
+    height: 100%;
+}
+
+.columna-75 {
+    width: 75%;
+    height: 100%;
+}
+
+.fila-10 {
+    height: 10%;
+}
+
+.fila-85 {
+    height: 85%;
+}
+
+.fila-5 {
+    height: 5%;
+}
+
+

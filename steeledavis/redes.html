@@ -5,8 +5,17 @@
             Mr. Steele
         </title>
         <meta charset="utf-8">
-    <header>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="estilos/comun.css">
+    </head>
+    <header class="columna-25">
         <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> INICIO </a>
+                </li>
+            </ul>
             <ul>
                 <li>
                     <a href="masinfo.html"> MAS SOBRE MR STEELE</a>
@@ -37,56 +46,65 @@
 
     <body>
 
-        <main>
+        <main clas="columna-75">
 
-            <aside>
+            <aside class="fila-10">
+
                 <img src="imagenes/steele-aside.jpg"> 
+
                 <h1> MR. STELLE </h1>
+
             </aside>
 
-            <section>
-                <div>
-                    <p>
-                        Siguelo en redes sociales para estar al tanto del contenido!
-                    </p>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="https://www.instagram.com/mrsteelefpv/?hl=es-la"> @mrsteelefpv </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/mrsteelefpv"> @mrsteelefpv </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/steele-davis-b176aa100/"> Steele Davis </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCQEqPV0AwJ6mQYLmSO0rcNA"> Mr Steele </a>
-                    </ul>
-                </div>
+            <section class="fila-85">
+
+                <article>
+                    <div>
+                        <p>
+                            Siguelo en redes sociales para estar al tanto del contenido!
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/mrsteelefpv/?hl=es-la"> @mrsteelefpv </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mrsteelefpv"> @mrsteelefpv </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/steele-davis-b176aa100/"> Steele Davis </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCQEqPV0AwJ6mQYLmSO0rcNA"> Mr Steele </a>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <p>
+                            ¿Tienes un comentario, alguna recomendación o consultas?
+                            ¡Mándale un mail!
+                            Mr Steele te responderá en breve
+                        </p>
+                    </div>
+                    <div>
+                        <form action="enviar" method="post">
+                            Nombre <input type="text" name="mail" >
+                            Correo <input type="text" name="nombre">
+                            <textarea name="mensaje"> Escribe tu mensaje </textarea>
+                        </form>
+                    </div>
+                </article>
+
             </section>
-            
-            <section>
-                <div>
-                    <p>
-                        ¿Tienes un comentario, alguna recomendación o consultas?
-                        ¡Mándale un mail!
-                        Mr Steele te responderá en breve
-                    </p>
-                </div>
-                <div>
-                    <form action="enviar" method="post">
-                        Nombre <input type="text" name="mail" >
-                        Correo <input type="text" name="nombre">
-                        <textarea name="mensaje"> Escribe tu mensaje </textarea>
-                    </form>
-                </div>
-            </section>
+
         </main>
 
-        <footer>
+        <footer class="fila-5">
             Steele Davis - copyright @2021
         </footer>
+
     </body>
 </html>

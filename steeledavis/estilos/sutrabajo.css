@@ -4,7 +4,7 @@
     height: 50%;
  }
 
- .fila33-3 {
-     display: inline-table;
-     height: 33.3%;
- }
+
+ section article {
+    flex-wrap: wrap;
+}

@@ -1,57 +1,68 @@
 html, body {
     height: 100%;
     width: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: flex-start;
     background-color: #0AEFFF;
 }
 
 header {
     background-color: #147df5;
-    border: 5px, solid, black;
-
 }
 
-header, ul {
+nav ul {
     list-style: none;
 }
 
 nav a{
     list-style: none;
+    text-decoration: none;
     color:white;
-    font-size: 35px;
-    font-family: 'dosis';
+    font-size: 175%;
+    font-family: 'koho';
 }
 
+nav {
+    position: relative;
+    top: 80px;
+}
+
+
 #formulario {
-    position: fixed;
-    bottom: 10px;
+    position: relative;
+    top: 61.5%;
     left: 20px;
     font-size: 50px;
 }
 
 aside {
     background-color: #147df5;
-    display: flex;
     width: 100%;
-    flex-wrap: wrap;
 }
 
-aside, img {
-    height: 50%;
-    padding: 6px;
+aside img {
+    height: 85%;
+    padding:6px;
+    position: relative; 
+    left: 72%;
 }
 
-aside, h1{
+h1 {
     color: white;
     margin: 0;
     padding: 0;
-    text-align: center;
+    float: right;
+    position: relative;
+    top: 35%;
+    right: 30px;
+    font-size: 175%;
+    font-family: 'koho';
+    
 }
+
 
 section {
     display: flex;
@@ -61,11 +72,11 @@ section {
     height: 100%;
 }
 
-section, article {
+section article {
     height: 100%;
     width: 100%;
-    display: flex;
 }
+
 
 footer, p {
     background-color: white;
@@ -94,5 +105,3 @@ footer, p {
 .fila-5 {
     height: 5%;
 }
-
-

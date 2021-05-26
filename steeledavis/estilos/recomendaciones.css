@@ -1,0 +1,12 @@
+main section article img {
+    width: 90%;
+    height: 50%;
+ }
+
+
+ section article {
+     flex-wrap: wrap-reverse;
+ }
+
+
+

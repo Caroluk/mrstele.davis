@@ -9,8 +9,16 @@ html, body {
     background-color: #0AEFFF;
 }
 
+body {
+    padding: 20px;
+}
+
 header {
     background-color: #147df5;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
 }
 
 nav ul {
@@ -33,7 +41,7 @@ nav {
 
 #formulario {
     position: relative;
-    top: 61.5%;
+    top: 58%;
     left: 20px;
     font-size: 50px;
 }
@@ -41,6 +49,9 @@ nav {
 aside {
     background-color: #147df5;
     width: 100%;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
 }
 
 aside img {
@@ -70,6 +81,7 @@ section {
     background-color: white;
     width: 100%;
     height: 100%;
+    border-right: solid 3px black;
 }
 
 section article {
@@ -78,20 +90,24 @@ section article {
 }
 
 
-footer, p {
+footer {
     background-color: white;
     margin: 0;
     text-align: center;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+    width: 100%;
 }
 
+
 .columna-25 {
-    width: 25%;
+    width: 24.6%;
     height: 100%;
 }
 
 .columna-75 {
     width: 75%;
-    height: 100%;
+    height: 99.7%;
 }
 
 .fila-10 {
@@ -104,4 +120,9 @@ footer, p {
 
 .fila-5 {
     height: 5%;
+}
+
+#top-2 {
+    padding: 2%;
+    margin: 0px;
 }

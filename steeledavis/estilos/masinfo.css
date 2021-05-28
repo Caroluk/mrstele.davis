@@ -2,11 +2,16 @@
     width: 90%;
     height: 80%;
     position: relative;
-    top: 8%;
-    padding: 5%;
+    top: 2%;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20;
+    margin-left: 40px;
+    border: 3px black solid;
 }
 
-article p {
+.parrafo-info {
     font-family: 'fira sans';
     font-size: 120%;
     width: 90%;
@@ -20,4 +25,14 @@ section {
 
 article {
     width: 50%;
+}
+
+.descripcion-info {
+    font-size: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'fira sans';
+
 }

@@ -1,0 +1,42 @@
+section {
+    flex-wrap: wrap
+}
+
+article {
+    width: 100%;
+}
+
+div p {
+    font-family: 'fira sans';
+    font-size: 200%;
+    margin: 8%;
+    text-align: center;
+}
+
+
+main section article div a {
+    text-decoration: none;
+    color:black;
+    font-size: 200%;
+    font-family: 'koho';
+    font-weight: bold;
+    margin-right: 50%;
+    align-content: space-around;
+ }
+
+#link-redes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mitad {
+    display: flex;
+    width: 50%;
+}
+
+#comentario {
+    display: flex;
+    flex-wrap: wrap;
+}

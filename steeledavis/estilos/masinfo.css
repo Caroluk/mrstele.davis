@@ -1,4 +1,23 @@
-article, img {
-    height: 600px;
-    width: 600px;
+.imagen-info {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    top: 8%;
+    padding: 5%;
+}
+
+article p {
+    font-family: 'fira sans';
+    font-size: 120%;
+    width: 90%;
+    height: 80%;
+    padding: 2%;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    width: 50%;
 }

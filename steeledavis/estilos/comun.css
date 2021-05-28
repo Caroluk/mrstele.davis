@@ -1,12 +1,10 @@
 html, body {
     height: 100%;
     width: 100%;
-    padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     background-color: #0AEFFF;
+    justify-content: center;
 }
 
 body {
@@ -15,14 +13,20 @@ body {
 
 header {
     background-color: #147df5;
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
-    border-left: solid 3px black;
-    border-right: solid 3px black;
+    border: solid 3px black;
 }
 
-nav ul {
+ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border-bottom: 3px solid white;
+}
+
+nav ul li {
     list-style: none;
+    padding-bottom: 15%;
 }
 
 nav a{
@@ -31,6 +35,7 @@ nav a{
     color:white;
     font-size: 175%;
     font-family: 'koho';
+    font-weight: bold;
 }
 
 nav {
@@ -41,7 +46,7 @@ nav {
 
 #formulario {
     position: relative;
-    top: 58%;
+    top: 30%;
     left: 20px;
     font-size: 50px;
 }
@@ -55,11 +60,17 @@ aside {
 }
 
 aside img {
-    height: 85%;
-    padding:6px;
+    height: 80%;
+    padding: 1%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
     position: relative; 
-    left: 72%;
+    left: 77%;
 }
+
 
 h1 {
     color: white;
@@ -67,11 +78,10 @@ h1 {
     padding: 0;
     float: right;
     position: relative;
-    top: 35%;
+    top: 30%;
     right: 30px;
-    font-size: 175%;
+    font-size: 220%;
     font-family: 'koho';
-    
 }
 
 
@@ -82,11 +92,6 @@ section {
     width: 100%;
     height: 100%;
     border-right: solid 3px black;
-}
-
-section article {
-    height: 100%;
-    width: 100%;
 }
 
 
@@ -101,7 +106,7 @@ footer {
 
 
 .columna-25 {
-    width: 24.6%;
+    width: 20%;
     height: 100%;
 }
 

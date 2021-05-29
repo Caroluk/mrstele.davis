@@ -1,6 +1,44 @@
-iframe {
-    height: 95%;
+section {
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+video {
+    height: 72%;
     width: 95%;
-    position: relative;
-    top: 5%;
+    padding-top: 60px ;
+}
+
+h2 {
+    width: 100%;
+    color: white;
+    font-family: limelight;
+    text-align: center;
+    font-size: 250%;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h3 {
+    width: 100%;
+    color: white;
+    font-family: fira sans;
+    text-align: center;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+.fila-5 {
+    background:black;
+}
+
+p {
+    color: white;
+}
+
+section h3 a {
+    text-decoration: none;
+    color: #0AEFFF;
+    text-transform: uppercase;
 }

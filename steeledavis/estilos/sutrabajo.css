@@ -1,52 +1,48 @@
 #imagenuno {
    height: 200px;
    border: 2px solid black;
+   float: left;
+   margin: 20px;
 }
 
 #imagendos {
    height: 200px;
    border: 2px solid black;
+   float: right;
+   margin: 20px;
 }
 
 #imagentres {
    height: 180px;
    border: 2px solid black;
+   float: right;
+   margin: 20px;
 }
 
 #imagencuatro {
    height: 200px;
    border: 2px solid black;
+   float: left;
+   margin: 20px;
 }
 
 #imagencinco {
    height: 200px;
    border: 2px solid black;
+   float: right;
+   margin: 20px;
 }
 
-#parrafo-uno {
+p {
    font-family: 'fira sans';
-   font-size: 100%;
-}
-
-#parrafo-dos {
-   font-family: 'fira sans';
-   font-size: 100%;
-}
-
-#parrafo-tres {
-   font-family: 'fira sans';
-   font-size: 100%;
-}
-
-#parrafo-cuatro {
-   font-family: 'fira sans';
-   font-size: 100%;
-}
-
-article {
-   flex-wrap: wrap;
+   font-size: 120%;
+   margin: 0;
+   text-align: center;
+   padding: 20px
 }
 
 section {
-   align-content: space-around;
+   width: 100%;
+   height: 100%;
+   display: revert;
 }

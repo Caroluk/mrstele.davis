@@ -9,20 +9,26 @@ article {
 div p {
     font-family: 'fira sans';
     font-size: 200%;
-    margin: 8%;
+    margin-top: 8%;
+    margin-bottom: 0;
     text-align: center;
 }
 
 
-main section article div a {
+section article ul li a {
     text-decoration: none;
     color:black;
     font-size: 200%;
-    font-family: 'koho';
-    font-weight: bold;
-    margin-right: 50%;
-    align-content: space-around;
+    font-family: 'limelight';
  }
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin:100px;
+    text-align: center;
+}
+
 
 #link-redes {
     display: flex;

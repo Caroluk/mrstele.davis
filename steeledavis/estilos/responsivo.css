@@ -1,0 +1,46 @@
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    /* a modo se ejemplo */
+    footer p {
+
+    }
+
+    header {
+        height: 60px;
+    }
+
+    header ul {
+        display: block;
+    }
+
+    header ul li {
+        border-radius: 0px;
+        text-align: right;
+    }
+
+    header img {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main {
+        padding: 60px 0px 0px;
+    }
+
+    main .titulo_seccion {
+        display: block;
+    }
+  
+    /* El Chef */
+    #imagen_tegui {
+        display: none;
+    }
+
+}

@@ -46,7 +46,7 @@ nav {
 
 #formulario {
     position: relative;
-    top: 30%;
+    top: 29%;
     left: 20px;
     font-size: 50px;
 }
@@ -63,12 +63,11 @@ aside img {
     height: 80%;
     padding: 1%;
     margin: 0;
-    background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
     position: relative; 
-    left: 77%;
+    left: 75%;
 }
 
 
@@ -104,6 +103,11 @@ footer {
     width: 100%;
 }
 
+footer p {
+    padding-top: 1%;
+    margin: 0px;
+}
+
 
 .columna-25 {
     width: 20%;
@@ -125,9 +129,4 @@ footer {
 
 .fila-5 {
     height: 5%;
-}
-
-#top-2 {
-    padding: 2%;
-    margin: 0px;
 }

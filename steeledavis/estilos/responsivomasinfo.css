@@ -1,0 +1,96 @@
+@media screen and (max-width: 1100px) {
+
+    body {
+        height: 1750px;
+        width: 1000px;
+    }
+
+    main {
+        border-left: solid 3px black;
+    }
+    
+    
+    header {
+        display: none;
+    }
+
+    input {
+        display: none;
+        }
+        
+
+    aside img {
+        position: relative;
+        left: -26%;
+        top: 5%
+        }
+    
+    section {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+    article {
+             width: 100%;
+        }
+
+    .articulo-info {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                margin-top: 20px;
+            }
+
+    .imagen-info {
+        margin-top: 0;
+        margin-bottom: 40px;
+        margin-left: 60px;
+        height: 500px;
+        width: 600px;
+    }        
+
+
+    h1 {
+        text-align: start;
+        position: relative;
+        left: 25%;
+        float: left;
+    }
+
+    h2 {
+        font-size: 189%;
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 22px;
+        margin-left: 58px;
+    }
+
+    h3 {
+        font-size: 200%;
+        margin: 2.5%;
+        margin-right: 36%;
+    }
+
+    footer p {
+        text-align: end;
+        padding-right: 25px;
+        padding-top: 8%;
+        margin: 0px;
+    }
+
+    section article p {
+        margin: 0;
+        padding-left: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    header img {
+        display: none;
+    }
+
+    section h3 {
+        display: none;
+    }
+}

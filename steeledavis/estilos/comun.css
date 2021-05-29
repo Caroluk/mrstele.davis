@@ -16,6 +16,10 @@ header {
     border: solid 3px black;
 }
 
+header img {
+    width: 80px;
+}
+
 ul {
     margin-left: 10%;
     margin-right: 10%;

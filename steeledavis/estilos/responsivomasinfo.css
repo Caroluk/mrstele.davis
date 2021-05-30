@@ -48,6 +48,9 @@
         width: 600px;
     }        
 
+    header {
+        width: 0;
+    }
 
     h1 {
         text-align: start;

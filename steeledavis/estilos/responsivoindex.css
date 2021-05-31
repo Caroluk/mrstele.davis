@@ -20,6 +20,10 @@
         display: none;
     }
 
+    header {
+        display: none;
+    }
+
     main {
         border-left: 3px black solid;
     }
@@ -78,6 +82,7 @@
     p {
             text-align: end;
             padding: 25px;
+            font-family: 'koho';
     }
     
 }

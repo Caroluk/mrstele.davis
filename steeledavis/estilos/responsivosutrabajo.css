@@ -39,23 +39,6 @@
              width: 100%;
     }
 
-    .articulo-info {
-                display: flex;
-                flex-wrap: wrap-reverse;
-                margin-top: 20px;
-    }
-
-    .imagen-info {
-        margin-top: 0;
-        margin-bottom: 40px;
-        margin-left: 60px;
-        height: 500px;
-        width: 600px;
-    }        
-
-    header {
-        width: 0;
-    }
 
     h1 {
         text-align: start;

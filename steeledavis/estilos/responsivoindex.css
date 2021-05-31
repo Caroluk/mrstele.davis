@@ -20,10 +20,6 @@
         display: none;
     }
 
-    header {
-        display: none;
-    }
-
     main {
         border-left: 3px black solid;
     }

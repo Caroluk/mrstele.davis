@@ -26,7 +26,7 @@
 
     aside img {
         position: relative;
-        left: -16%;
+        left: -25%;
         top: 5%
         }
     
@@ -57,7 +57,7 @@
     h1 {
         text-align: start;
         position: relative;
-        left: 26%;
+        left: 20%;
         top: 37%;
         float: left;
     }
@@ -76,6 +76,7 @@
         font-size: 200%;
         margin: 2.5%;
         margin-right: 36%;
+        font-style: italic;
     }
 
     footer p {

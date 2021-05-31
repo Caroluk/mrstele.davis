@@ -12,6 +12,32 @@
         input {
             display: none;
         }
+
+        header {
+            display: none;
+        }
+
+        aside nav a{
+            list-style: none;
+            text-decoration: none;
+            color:white;
+            font-size: 175%;
+            font-family: 'koho';
+            font-weight: bold;
+        }
+        
+        aside ul {
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-top: 5%;
+            padding-left: 5%;
+            border-bottom: 3px solid white;
+        }
+        
+        aside nav ul li {
+            list-style: none;
+            padding-bottom: 15%;
+        }
         
         video {
                 width: 550px;
@@ -47,6 +73,10 @@
         }
 
         main nav {
+            display: none;
+        }
+
+        main nav img {
             display: none;
         }
 

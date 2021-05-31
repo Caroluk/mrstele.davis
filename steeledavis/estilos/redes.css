@@ -3,22 +3,18 @@ section {
 }
 
 article {
-    width: 100%;
+    width: 90%;
 }
 
 div p {
     font-family: 'fira sans';
-    font-size: 200%;
+    font-size: 180%;
     margin-top: 8%;
     margin-bottom: 0;
     text-align: center;
     color: white;
 }
 
-div {
-    margin: 0;
-
-}
 
 section {
     background-color: black;
@@ -39,7 +35,7 @@ section ul {
     list-style: none;
     padding: 0;
     margin: 100px;
-    font-size: 22.5px;
+    font-size: 20px;
 }
 
 
@@ -48,14 +44,24 @@ section ul {
     width: 100%;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    border: 3px #147df5;
-    border-style: double;
+    border: double 3px #147df5;
     margin: 20px;
+    background-color: white;
+    height: 60%;
 }
 
 .mitad {
     display: flex;
     width: 50%;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'fira sans';
+    font-size: 200%;
+    text-align: center;
+    padding: 20px;    
 }
 
 #comentario {

@@ -1,7 +1,7 @@
 @media screen and (max-width: 1100px) {
 
     body {
-        height: 1850px;
+        height: 1350px;
         width: 1000px;
     }
 
@@ -43,7 +43,7 @@
     h1 {
         text-align: start;
         position: relative;
-        left: 26%;
+        left: 16%;
         top: 37%;
         float: left;
     }
@@ -58,14 +58,15 @@
 
     h3 {
         font-size: 200%;
-        margin: 2.5%;
-        margin-right: 36%;
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 40px;
     }
 
     footer p {
         text-align: end;
         padding-right: 25px;
-        padding-top: 8%;
+        padding-top: 4%;
         margin: 0px;
     }
 
@@ -75,6 +76,14 @@
     }
 
     #noresponsivo {
+        display: none;
+    }
+    
+    #imagencinco {
+        display: none;
+    }
+    
+    #imagentres {
         display: none;
     }
 

@@ -9,6 +9,12 @@
             position: relative;
             left: -180px;
         }
+    
+    nav img {
+        position: relative;
+        left: 560px;
+        bottom:160px;
+    }
 
     input {
         display: none;
@@ -18,6 +24,10 @@
         display: none;
     }
 
+    main {
+        border-left: 3px black solid;
+    }
+    
     aside nav a{
         list-style: none;
         text-decoration: none;
@@ -32,17 +42,21 @@
         margin-left: 40%;
         margin-right: 10%;
         padding-top: 5%;
-        padding-left: 5%;
+        padding-left: 0;
         background: #147df5;
         position: relative;
-        bottom: 100px;
+        bottom: 160px;
         left: 66px;
+        margin-top: 0;
+        margin-bottom: 0;
+        
     }
     
     aside nav ul li {
         list-style: none;
         padding-bottom: 15%;
         margin: 0; 
+        text-align: center;
     }
     
     video {

@@ -11,9 +11,19 @@
     
     
     aside nav { 
-        display: none;
+        text-align: center;
+        font-size: 100%;
+        position: relative;
+        top: -90%;
+        left: 40%;
      }
     
+     aside nav ul {
+        background: #147df5;
+        width: 50%;
+        padding: 0;
+     }
+
     
     header {
         display: none;
@@ -26,7 +36,7 @@
 
     aside img {
         position: relative;
-        left: -26%;
+        left: -25%;
         top: 5%
         }
     
@@ -53,8 +63,8 @@
     h1 {
         text-align: start;
         position: relative;
-        left: 20%;
-        top: 37%;
+        left: 13%;
+        top: 30%;
         float: left;
     }
 
@@ -86,7 +96,7 @@
     }
 
 
-    #linkredes {
+    .divredes {
         width: 90%;
         display: flex;
         flex-wrap: wrap-reverse;
@@ -101,8 +111,7 @@
     .mitad {
         width: 100%;
         height: 20%;
-        margin-bottom: 100px;
-
+        margin: 0;
     }
 
     #comentario {

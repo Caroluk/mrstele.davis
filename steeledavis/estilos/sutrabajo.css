@@ -55,3 +55,10 @@ p {
    margin: 0px;
    margin-left: 20%;
 }
+
+footer p {
+   padding-top: 1%;
+   margin: 0px;
+   text-align: center;
+   padding-left: 30%;
+}

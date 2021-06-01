@@ -33,7 +33,7 @@
     aside nav {
         width: 50%;
         position: relative;
-        bottom: 81%;
+        top: -73;
         left: 50%;
         text-align: center;
     }

@@ -1,7 +1,7 @@
 @media screen and (max-width: 1100px) {
 
     body {
-        height: 1350px;
+        height: 1520px;
         width: 1000px;
     }
 
@@ -86,6 +86,10 @@
     
     #imagentres {
         display: none;
+    }
+    
+    #parrafo-cuatro {
+        margin: 0;
     }
 
 }

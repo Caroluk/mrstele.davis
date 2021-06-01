@@ -12,13 +12,6 @@
    margin: 20px;
 }
 
-#imagentres {
-   height: 180px;
-   border: 2px solid black;
-   float: right;
-   margin: 20px;
-}
-
 #imagencuatro {
    height: 200px;
    border: 2px solid black;
@@ -31,9 +24,15 @@
    border: 2px solid black;
    float: right;
    margin: 20px;
+   position: relative;
+   bottom: 270px;
 }
 
-p {
+#parrafo-cuatro {
+   margin-right: 380px;
+}
+
+section p {
    font-family: 'fira sans';
    font-size: 120%;
    margin: 0;

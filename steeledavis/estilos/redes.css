@@ -28,7 +28,8 @@ section article ul li a {
     text-decoration: none;
     color:black;
     font-size: 200%;
-    font-family: 'limelight';
+    font-family: 'koho';
+    font-style: revert;
  }
 
 section ul {
@@ -54,6 +55,10 @@ section ul {
     display: flex;
     width: 50%;
     color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
 }
 
 h2 {

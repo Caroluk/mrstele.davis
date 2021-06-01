@@ -25,7 +25,11 @@
    float: right;
    margin: 20px;
    position: relative;
-   bottom: 270px;
+   bottom: 200px;
+}
+
+#noresponsivo {
+   padding-top: 20px;
 }
 
 #parrafo-cuatro {
@@ -34,7 +38,7 @@
 
 section p {
    font-family: 'fira sans';
-   font-size: 120%;
+   font-size: 140%;
    margin: 0;
    text-align: center;
    padding: 20px

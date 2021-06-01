@@ -15,6 +15,10 @@ div p {
     color: white;
 }
 
+form div {
+    font-size: 25px;
+}
+
 
 section {
     background-color: black;
@@ -85,4 +89,28 @@ footer {
 
 footer p {
     color: white;
+}
+
+#form-nombre {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 29px;
+    width: 300px;
+}
+
+#form-correo{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 29px;
+    width: 300px;
+}
+
+#form-text {
+    height: 150px;
+    width: 450px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'koho';
 }

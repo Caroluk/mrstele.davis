@@ -19,7 +19,7 @@
         display: none;
     }
 
-    input {
+    header input {
         display: none;
         }
         
@@ -35,6 +35,15 @@
             flex-wrap: wrap;
         }
 
+    section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    
+
     article {
              width: 100%;
     }
@@ -49,11 +58,8 @@
     }
 
     h2 {
-        font-size: 189%;
-        padding-top: 20px;
-        padding-left: 25px;
-        padding-right: 22px;
-        margin-left: 58px;
+        padding:20px;
+        margin: 20px;
     }
 
     h3 {
@@ -61,6 +67,8 @@
         margin: 2.5%;
         margin-right: 51%;
         font-style: italic;
+        color: white;
+
     }
 
     footer p {
@@ -76,6 +84,22 @@
     }
 
 
+    #linkredes {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        border: double 3px #147df5;
+        margin: 20px;
+        margin-left: 20px;
+        background-color: white;
+        height: 60%;
+    }
+
+    .mitad {
+        width: 100%;
+
+    }
 }
 
 @media screen and (min-width: 1100px) {

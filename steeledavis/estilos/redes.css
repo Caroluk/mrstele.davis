@@ -70,6 +70,11 @@ section input {
     margin: 20px;
 } 
 
+article div form {
+    position: relative;
+    top: -15%;
+}
+
 h2 {
     color: white;
     font-family: 'fira sans';

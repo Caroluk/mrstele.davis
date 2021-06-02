@@ -20,6 +20,10 @@ header img {
     width: 80px;
 }
 
+header input {
+    font-size: 18px;
+}
+
 ul {
     margin-left: 10%;
     margin-right: 10%;
@@ -72,10 +76,6 @@ aside img {
     background-size: 100% auto;
     position: relative; 
     left: 78%;
-}
-
-header input {
-    font-size: 18px;
 }
 
 

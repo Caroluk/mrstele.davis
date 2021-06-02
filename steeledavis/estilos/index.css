@@ -3,6 +3,12 @@ section {
     background-color: black;
 }
 
+section h3 a {
+    text-decoration: none;
+    color: #0AEFFF;
+    text-transform: uppercase;
+}
+
 video {
     height: 72%;
     width: 95%;
@@ -29,16 +35,11 @@ h3 {
     padding: 0;
 }
 
-.fila-5 {
-    background:black;
-}
-
 p {
     color: white;
 }
 
-section h3 a {
-    text-decoration: none;
-    color: #0AEFFF;
-    text-transform: uppercase;
+
+.fila-5 {
+    background:black;
 }

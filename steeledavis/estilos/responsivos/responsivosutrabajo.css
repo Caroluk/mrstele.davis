@@ -107,4 +107,8 @@
     #siresponsivo {
         display: none;
     }
+
+    aside nav {
+        display: none;
+    }
 }

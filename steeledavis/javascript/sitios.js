@@ -1,35 +1,46 @@
-var peticion = new XMLHttpRequest()
+/* carga por a defecto*/
 
-peticion.open("GET", "inicio.html", true);
+$('main').load("inicio.html")
 
-peticion.onreadystatechange = function () {
 
-    if (peticion.status == 200) {
-        var main = document.querySelector("main");
-        main.innerHTML = peticion.response
-        }
 
-    }
+/* acceso a links de menu*/
 
-peticion.send ()
+$('a').on('click', function(evento) {
 
-var irInfo = document.querySelector("#masinfo")
+    evento.preventDefault()
 
-irInfo.addEventListener("click", function() {
+    var $link = $(evento.target)
+    var url = $link.prop('href')
 
-    var peticionDos = new XMLHttpRequest()
+    $.get(url,function(contenido) {
+        $('main').html(contenido)
+    })
 
-    peticionDos.open("GET", "masinfo.html", true);
-
-    peticionDos.onreadystatechange = function () {
-
-        if (peticionDos.status == 200) {
-            var mainDos = document.querySelectorAll("main");
-            mainDos.innerHTML = peticionDos.response
-        }
-
-    }
-
-    peticionDos.send ()
-    
 })
+
+$('aside a').on('click', function(evento) {
+
+    evento.preventDefault()
+
+    var $link = $(evento.target)
+    var url = $link.prop('href')
+
+    $.get(url,function(contenido) {
+        $('main').html(contenido)
+    })
+
+})
+
+/* mostrar y no mostrar menu*/
+
+    $(".menu-para-abrir").on('click',function() {
+
+        if($('nav').css(display)=="none") {
+            $(nav).show() 
+        } else {
+            $('nav').hide()
+        }
+    }
+    
+    )

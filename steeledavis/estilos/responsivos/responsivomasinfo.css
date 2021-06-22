@@ -103,4 +103,8 @@
     section h3 {
         display: none;
     }
+
+    aside nav {
+        display: none;
+    }
 }

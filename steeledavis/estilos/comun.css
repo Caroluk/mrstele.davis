@@ -91,7 +91,9 @@ h1 {
     font-family: 'koho';
 }
 
-
+section {
+    overflow-y: scroll;
+}
 section {
     display: flex;
     justify-content: space-evenly;

@@ -14,6 +14,7 @@ body {
 header {
     background-color: #147df5;
     border: solid 3px black;
+
 }
 
 header img {
@@ -24,7 +25,7 @@ header input {
     font-size: 18px;
 }
 
-ul {
+nav ul {
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 5%;
@@ -53,11 +54,38 @@ nav {
 
 
 #formulario {
-    position: relative;
-    top: 26%;
-    left: 20px;
+    position: absolute;
     font-size: 50px;
+    bottom: 1%;
+    left: 5%;
 }
+
+#busquedas {
+    background-color: white;
+    position: absolute;
+    top: 79.6%;
+    left: 4.6%;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 157px;
+    display: hidden;
+}
+
+#busquedas a {
+    list-style: none;
+    text-decoration: none;
+    color:rgb(68, 68, 68);
+    font-size: 110%;
+    font-family: 'fira sans';
+    font-weight: bold;
+}
+
+#busquedas li {
+    list-style: none;
+    padding: 5px;
+}
+
 
 aside {
     background-color: #147df5;

@@ -4,16 +4,6 @@
         height: 1650px;
         width: 1000px;
     }
-
-    main {
-        border-left: solid 3px black;
-    }
-    
-    
-    aside nav { 
-        display: none;
-     }
-    
     
     header {
         display: none;
@@ -24,25 +14,60 @@
         }
         
 
-    aside img {
+    .imagen-burger {
         position: relative;
-        left: -25%;
-        top: 5%
+        left: 55%;
+        top: 15%;
+        height: 80px;
         }
     
+    aside nav ul { 
+        margin: 0;
+        background-color: #147df5;
+    }
+
+    .imagen-steele {
+        display: none;
+    }
+            
+    #menu-responsivo {
+        width: 50%;
+        position: relative;
+        top: 10%;
+        left: 50%;
+        text-align: center;
+    }
+    
+
+    aside nav img {
+        position: relative;
+        left: 35%;
+        top: 0;
+    }
+        
+    
+    h1 {
+        text-align: start;
+        position: relative;
+        left: 5%;
+        top: 28%;
+        float: left;
+    }
+    
     section {
-            width: 100%;
-            flex-wrap: wrap;
-        }
+        width: 100%;
+        flex-wrap: wrap;
+        border-left: 3px solid black;
+    }
 
     article {
-             width: 100%;
+        width: 100%;
     }
 
     .articulo-info {
-                display: flex;
-                flex-wrap: wrap-reverse;
-                margin: 0;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-left: 50px;
     }
 
     .imagen-info {
@@ -53,14 +78,6 @@
         width: 600px;
     }        
 
-
-    h1 {
-        text-align: start;
-        position: relative;
-        left: 20%;
-        top: 37%;
-        float: left;
-    }
 
     h2 {
         font-size: 189%;
@@ -76,13 +93,18 @@
         font-size: 200%;
         margin: 2.5%;
         margin-right: 42%;
+        color: black;
         font-style: italic;
     }
+
+    footer {
+        border-left: 3px solid black;
+    }
+
 
     footer p {
         text-align: end;
         padding-right: 25px;
-        padding-top: 8%;
         margin: 0px;
         font-family: 'koho';
     }
@@ -90,6 +112,11 @@
     section article p {
         margin: 0;
         padding-left: 40px;
+    }
+
+    .columna-75 {
+        width: 75%;
+        right: 12.6%;
     }
 
 }
@@ -107,4 +134,9 @@
     aside nav {
         display: none;
     }
+
+    .imagen-burger {
+        display: none;
+    }
+
 }

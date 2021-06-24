@@ -5,6 +5,7 @@ html, body {
     display: flex;
     justify-content: center;
     background: #0aefff;
+    overflow: hidden;
 }
 
 body {
@@ -62,9 +63,9 @@ nav {
 
 #busquedas {
     background-color: white;
-    position: absolute;
-    top: 79.6%;
-    left: 4.6%;
+    position: fixed;
+    top: 77.4%;
+    left: 2.8%;
     margin: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -89,21 +90,22 @@ nav {
 
 aside {
     background-color: #147df5;
-    width: 100%;
+    width: 75%;
     border-top: solid 3px black;
     border-bottom: solid 3px black;
     border-right: solid 3px black;
+    position: fixed;
+    left: 44.2%;
+    transform: translateX(-27.4%);
 }
 
-aside img {
-    height: 80%;
-    padding: 1%;
+.imagen-steele {
+    height: 90%;
+    padding-top: 5px;
     margin: 0;
-    background-position: 50%;
     border-radius: 50%;
-    background-size: 100% auto;
-    position: relative; 
-    left: 78%;
+    position: absolute;
+    right: 21%;
 }
 
 
@@ -111,17 +113,17 @@ h1 {
     color: white;
     margin: 0;
     padding: 0;
-    float: right;
-    position: relative;
-    top: 30%;
-    right: 30px;
-    font-size: 220%;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    font-size: 280%;
     font-family: 'koho';
 }
 
 section {
     overflow-y: scroll;
 }
+
 section {
     display: flex;
     justify-content: space-evenly;
@@ -144,17 +146,24 @@ footer {
 footer p {
     padding-top: 1%;
     margin: 0px;
+    font-family: 'koho';
 }
 
 
 .columna-25 {
-    width: 20%;
-    height: 100%;
+    width: 21.8%;
+    height: 95%;
+    position: fixed;
+    right: 76.4%;
 }
 
 .columna-75 {
     width: 75%;
-    height: 99.7%;
+    height: 94.25%;
+    position: fixed;
+    top: 12.5%;
+    left: 23.6%;
+    display: block;
 }
 
 .fila-10 {

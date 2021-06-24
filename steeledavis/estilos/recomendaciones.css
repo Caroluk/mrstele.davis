@@ -50,3 +50,7 @@ h2 {
 section img {
     border: 3px black solid;
 }
+
+footer p {
+    font-family: 'koho';
+}

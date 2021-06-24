@@ -3,7 +3,7 @@ section {
     background-color: black;
 }
 
-section h3 a {
+section h4 a {
     text-decoration: none;
     color: #0AEFFF;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ h2 {
     padding-top: 20px;
 }
 
-h3 {
+h4 {
     width: 100%;
     color: white;
     font-family: fira sans;
@@ -42,4 +42,8 @@ p {
 
 .fila-5 {
     background:black;
+} 
+
+footer p {
+    font-family: 'koho';
 }

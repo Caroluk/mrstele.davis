@@ -61,3 +61,7 @@ section a {
     color:  #147df5;
     text-transform: uppercase;
 }
+
+footer p{
+    font-family: 'koho';
+}

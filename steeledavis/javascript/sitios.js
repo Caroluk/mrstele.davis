@@ -3,10 +3,24 @@
 $('main').load("inicio.html")
 
 
+/* mostrar y no mostrar menu*/
+
+
+function imagenMenu() {
+
+    if($('aside nav').css('display')=="none") {
+        $('aside nav').show() 
+    } else {
+        $('aside nav').hide()
+    }
+}
+
+$(".imagen-burger").on('click', imagenMenu);
+
 
 /* acceso a links de menu*/
 
-$('a').on('click', function(evento) {
+$('nav a').on('click', function(evento) {
 
     evento.preventDefault()
 
@@ -17,51 +31,16 @@ $('a').on('click', function(evento) {
         $('main').html(contenido)
     })
 
-})
-
-$('aside a').on('click', function(evento) {
-
-    evento.preventDefault()
-
-    var $link = $(evento.target)
-    var url = $link.prop('href')
-
-    $.get(url,function(contenido) {
-        $('main').html(contenido)
-    })
-
-})
-
-/* mostrar y no mostrar menu*/
-
-    $(".menu-para-abrir").on('click',function() {
-
-        if($('nav').css(display)=="none") {
-            $(nav).show() 
-        } else {
-            $('nav').hide()
-        }
-    }
+    imagenMenu()
     
-    )
+})
+
+
 
 // dando vida al buscador 
 
 
-var buscador = $("#input-buscar");
-var listaResultados = $("#busquedas");
-var resultados = $(".resultado");
 
-var resultados = ["DRONES", "CONTACTO", "MAIL", "INFORMACION", "CONSEJOS"]
-
-if (buscador.indexOf = resultados[0] || resultados[1] || resultados[2] || resultados[3] || resultados[4] || resultados[5] ){
-
-    console.log("bien")
- 
-} else {
-
-    console.log("mal")
-}
 
 
 

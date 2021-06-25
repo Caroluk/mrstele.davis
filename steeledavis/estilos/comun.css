@@ -73,7 +73,7 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     width: 230px;
-    display: none;
+    display: hidden;
 }
 
 .div-tabla a {

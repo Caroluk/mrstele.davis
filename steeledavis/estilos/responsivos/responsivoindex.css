@@ -42,7 +42,7 @@
     #menu-responsivo {
         width: 50%;
         position: relative;
-        top: 23.8%;
+        top: 10%;
         left: 50%;
         text-align: center;
     }
@@ -90,8 +90,6 @@
         color: black;
         height: 50px;
     }
-
- 
     
     footer p {
         text-align: end;
@@ -104,7 +102,6 @@
     .columna-75 {
         width: 75.2%;
         left: 12.4%;
-        top: 12.4%;
     }
 
 }

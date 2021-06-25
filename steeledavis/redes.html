@@ -91,22 +91,22 @@
                 Mr Steele te responderá en breve.
             </p>
         </div>
-        <div class="mitad">
-            <form action="enviar" method="post">
+        <div class="mitad" id="formulario-mail">
+            <form action="enviar" method="post" enctype="text/plain" action="mailto:carolina_luisa_lukoski@outlook.com" onsubmit="return false">
                 <div>
-                    Tu nombre <input type="text" name="mail" id="form-nombre">
-                </div>
-                <div>
-                    Tu correo <input type="text" name="nombre" id="form-correo">
+                    Tu nombre <input type="text" name="mail" id="form-nombre" class="input-formulario">
                 </div>
                 <div>
-                    <textarea name="mensaje" id="form-text"> Escribe tu mensaje </textarea>
+                    Tu correo <input type="text" name="nombre" id="form-correo" class="input-formulario">
                 </div>
                 <div>
-                    <input type="button" name="search" value="enviar">
+                    <textarea name="mensaje" id="form-text" class="input-formulario" placeholder="Escribe tu mensaje aqui"> Escribe tu mensaje aqui </textarea>
                 </div>
-                    </form>
+                <div>
+                    <input type="submit" value="ENVIAR" class="submit" onclick="alert('Tu correo ha sido enviado con exito!')">
+                    <input type="reset" value="LIMPIAR" id="input-clear">
                 </div>
+                </form>
     </article>
 
 </section>

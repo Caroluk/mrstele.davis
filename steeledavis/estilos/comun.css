@@ -48,32 +48,35 @@ nav a{
     font-weight: bold;
 }
 
+nav ul:hover{
+    background-color: #1467c7;
+}
+
 nav {
     position: relative;
     top: 80px;
 }
 
-
-#formulario {
+#formulario-search {
     position: absolute;
     font-size: 50px;
     bottom: 1%;
     left: 5%;
 }
 
-#busquedas {
+.div-tabla {
     background-color: white;
     position: fixed;
-    top: 77.4%;
-    left: 2.8%;
+    top: 80%;
+    left: 2.7%;
     margin: 0;
     padding-left: 20px;
     padding-right: 20px;
-    width: 157px;
-    display: hidden;
+    width: 230px;
+    display: none;
 }
 
-#busquedas a {
+.div-tabla a {
     list-style: none;
     text-decoration: none;
     color:rgb(68, 68, 68);
@@ -82,7 +85,7 @@ nav {
     font-weight: bold;
 }
 
-#busquedas li {
+.div-tabla tr {
     list-style: none;
     padding: 5px;
 }
@@ -158,12 +161,13 @@ footer p {
 }
 
 .columna-75 {
-    width: 75%;
-    height: 94.25%;
+    width: 75.02%;
+    height: 94%;
     position: fixed;
     top: 12.5%;
     left: 23.6%;
     display: block;
+    border-top: solid 2px black;
 }
 
 .fila-10 {

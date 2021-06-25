@@ -20,7 +20,7 @@ $(".imagen-burger").on('click', imagenMenu);
 
 /* acceso a links de menu*/
 
-$('nav a').on('click', function(evento) {
+$('a').on('click', function(evento) {
 
     evento.preventDefault()
 
@@ -35,19 +35,51 @@ $('nav a').on('click', function(evento) {
     
 })
 
-function color(r){ 
-    if(r =="si")
-        $('a').style.background ="black"
-    else 
-        $('a').style.background ="#f3f3f3"
-}
+$('textarea').on('keyup', function(clear) {
+
+    console.log('hola')
+
+})
+
 
 
 
 // dando vida al buscador 
 
+$("#input-search").keyup(function () {
 
+    _this = this;
 
+    $.each($("tbody tr"), function () {
+
+        if ($(this).text().toUpperCase().indexOf($(_this).val().toUpperCase()) === -1)
+            $(this).hide();
+        else
+            $(this).show();
+    });
+});
+
+/* 
+	input.addEventListener('keyup', validarFormulario);
+	input.addEventListener('blur', validarFormulario)
+
+var buscador = $('#table').DataTable();
+
+$('#input-search').keyup(function() {
+
+    buscador.search($(this).val()).draw();
+
+    if ($('#input-search').val() == "") {
+
+        $('.div-busquedas').fadeOut;
+
+    } else {
+
+        $('.div-busquedas').fadeIn;
+
+    }
+
+})
 
 
 

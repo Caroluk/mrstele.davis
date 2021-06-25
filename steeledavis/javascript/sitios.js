@@ -35,6 +35,13 @@ $('nav a').on('click', function(evento) {
     
 })
 
+function color(r){ 
+    if(r =="si")
+        $('a').style.background ="black"
+    else 
+        $('a').style.background ="#f3f3f3"
+}
+
 
 
 // dando vida al buscador 

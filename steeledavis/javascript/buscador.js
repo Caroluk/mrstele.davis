@@ -20,19 +20,19 @@ $("#input-search").keyup(function () {
 
 });
 
-/*
+
 $('#button-search').on('click', function() {
 
     var $text = $('#table td').textContent;
 
     if ($('#input-search').text != $text) {
 
-        alert('Parece que tu busqueda no coincide con nuestros resultados, prueba con algunas de nuestras sugerencias!')
+        alert('Parece que tu busqueda no coincide con nuestros resultados, prueba con alguna de las sugerencias!')
         
     } 
 })
 
-*/
+/*
 
 $('#button-search').on('click', function() {
 
@@ -49,4 +49,4 @@ $('#button-search').on('click', function() {
         alert('no funciona')
     }
 
-})
+}) */

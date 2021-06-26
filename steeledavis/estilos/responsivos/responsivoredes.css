@@ -5,9 +5,10 @@
         width: 1000px;
     }
 
-    aside nav ul { 
-        margin: 0;
-        background-color: #147df5;
+    aside { 
+        position: fixed;
+        top: 2.5%;
+        width: 75%
     }
     
     header {
@@ -34,7 +35,7 @@
     #menu-responsivo {
         width: 50%;
         position: relative;
-        top: 10%;
+        top: 22%;
         left: 50%;
         text-align: center;
     }

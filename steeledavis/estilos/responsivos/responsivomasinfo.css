@@ -20,7 +20,14 @@
         top: 15%;
         height: 80px;
         }
-    
+
+        
+    aside { 
+        position: fixed;
+        top: 2.5%;
+        width: 75.05%
+    }
+
     aside nav ul { 
         margin: 0;
         background-color: #147df5;
@@ -33,7 +40,7 @@
     #menu-responsivo {
         width: 50%;
         position: relative;
-        top: 10%;
+        top: 22%;
         left: 50%;
         text-align: center;
     }
